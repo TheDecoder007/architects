@@ -3,12 +3,12 @@ import Row from "react-bootstrap/Row";
 import Nav from "react-bootstrap/Nav";
 
 
-function PageFooter() {
+// function PageFooter() {
 
-    return(
+//     return(
 
-    );
-};
+//     );
+// };
 
 
-export default PageFooter;
+// export default PageFooter;

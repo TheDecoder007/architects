@@ -5,16 +5,16 @@ import Nav from "react-bootstrap/Nav";
 import "./style.css";
 
 
-function TopNav({ activeTab, changeActiveTab}) {
+// function TopNav({ activeTab, changeActiveTab}) {
     
     
-    useEffect(() => {
-        document.title = (activeTab);
-    });
+//     useEffect(() => {
+//         document.title = (activeTab);
+//     });
 
-    return (
+//     return (
 
-    );
-};
+//     );
+// };
 
-export default TopNav;
+// export default TopNav;

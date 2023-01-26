@@ -4,12 +4,12 @@ import {projects} from "./data";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-function Projects() {
+// function Projects() {
 
-    return (
+//     return (
 
 
-    );
-};
+//     );
+// };
 
-export default Projects;
+// export default Projects;

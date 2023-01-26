@@ -7,12 +7,12 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 
- const Contact = () => {
+//  const Contact = () => {
 
-    return (
+//     return (
 
-    );
- };
+//     );
+//  };
 
 
- export default Contact;
+//  export default Contact;
