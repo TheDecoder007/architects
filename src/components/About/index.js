@@ -39,16 +39,18 @@ const About = () => {
             Since its inception, our firm has been dedicated to providing
             quality architecture design and service. Our firm is experienced in
             providing services for new construction, renovations, adaptive use
-            designs, and historic preservation. We firmly believe our success is
-            the result of the close relationships developed with our clients
-            from the conceptual stage of the design process through construction
-            documents and building construction. 
+            designs, and historic preservation.
             <br />
-            Our reputation for quality and
-            service has resulted in repeat business and positive referrals. We
-            invite you to browse a sampling of our work. We thank you for
-            allowing us to introduce you to Hibbard & Rosa Architects, L.L.C.
-            and we look forward to hearing from you in the future.
+            We firmly believe our success is the result of the close
+            relationships developed with our clients from the conceptual stage
+            of the design process through construction documents and building
+            construction.
+            <br />
+            Our reputation for quality and service has resulted in repeat
+            business and positive referrals. We invite you to browse a sampling
+            of our work. We thank you for allowing us to introduce you to
+            Hibbard & Rosa Architects, L.L.C. and we look forward to hearing
+            from you in the future.
             <br />
           </p>
         </Col>
