@@ -1,10 +1,10 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
-import {projects} from "./data";
+import ServiceCard from "./ServiceCard";
+import {services} from "./data";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-// function Projects() {
+// function Services() {
 
 //     return (
 
@@ -12,4 +12,4 @@ import Row from "react-bootstrap/Row";
 //     );
 // };
 
-// export default Projects;
+// export default Services;

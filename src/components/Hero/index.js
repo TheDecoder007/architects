@@ -2,6 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
+import "./style.css";
 
 // import Residential1 from "../../assets/photos/residential/residence1p.png";
 // import Residential2 from "../../assets/photos/residential/residence2.jpg";
@@ -12,80 +13,73 @@ import Carousel from "react-bootstrap/Carousel";
 function Hero() {
   return (
     <Container fluid className="Hero">
-      <Row>
-        <Carousel>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../../assets/photos/residential/residence1p.png")}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../../assets/photos/residential/residence2.jpg")}
-
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../../assets/photos/residential/residence3.jpg")}
-
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
+      <Row className="CarouselRow">
+        <Carousel fade className="Carousel">
+          <Carousel.Item interval={2500}>
             <img
               className="d-block w-100"
               src={require("../../assets/photos/residential/residence4.jpg")}
-
-              alt="Third slide"
+              alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>Residential</h3>
+              <p>Something fancy about this house</p>
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item interval={2500}>
             <img
               className="d-block w-100"
-              src={require("../../assets/photos/residential/residence5.jpg")}
+              src={require("../../assets/photos/commercial/BedBathRutlandVT.jpg")}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3>Commercial</h3>
+              <p>Bed Bath & Beyond, Vermont</p>
+            </Carousel.Caption>
+          </Carousel.Item>
 
+          <Carousel.Item interval={2500}>
+            <img
+              className="d-block w-100"
+              src={require("../../assets/photos/municipal/CTstateFacilityHartford.jpg")}
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h3>Third slide label</h3>
+              <h3>Municipal</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                CT State facility, Hartford
               </p>
             </Carousel.Caption>
           </Carousel.Item>
 
-          
+          <Carousel.Item interval={2500}>
+            <img
+              className="d-block w-100"
+              src={require("../../assets/photos/institution/StSebsMiddletown.jpg")}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <h3>Institution</h3>
+              <p>
+                St. Sebastians Church, Middletown
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item interval={2500}>
+            <img
+              className="d-block w-100"
+              src={require("../../assets/photos/preservation/NewingtonVetsHospital.jpg")}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <h3>Historic Preservation</h3>
+              <p>
+                Newington Veterans Hospital
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
         </Carousel>
       </Row>
     </Container>
