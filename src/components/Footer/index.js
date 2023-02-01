@@ -1,19 +1,21 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-import Nav from "react-bootstrap/Nav";
-
-import Video4 from "../../assets/photos/Footer.jpg";
+// import Nav from "react-bootstrap/Nav";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
+import "./style.css"
+import footerImg from "../../assets/photos/Footer.jpg";
 
 function PageFooter() {
+  return (
 
-    return(
-        <footer className="Footer">
-        <video autoPlay loop muted id="video" className="footerVid">
-          <source src={Video4} type="video/mp4" />
-        </video>
-        </footer>
-    );
-};
-
+    // <Row className="FooterRow">
+      <footer className="Footer">
+        <Image className="footerVid" src={footerImg} alt="footer image">
+          {/* <source src={footerImg} /> */}
+        </Image>
+      </footer>
+  );
+}
 
 export default PageFooter;
