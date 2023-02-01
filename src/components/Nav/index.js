@@ -36,7 +36,7 @@ function TopNav({ activeTab, changeActiveTab}) {
             <Navbar.Collapse className="navToggle" id="basic-navbar-nav">
               <Nav className="me-auto NavLinks">
                 <Nav.Link
-                  onClick={() => changeActiveTab("Services")}
+                  onClick={() => changeActiveTab("Our Services")}
                   href="#Services"
                   className={activeTab === "Services" ? "active-tab" : "not-active"}
                 >
@@ -50,7 +50,7 @@ function TopNav({ activeTab, changeActiveTab}) {
                   About
                 </Nav.Link>
                 <Nav.Link
-                  onClick={() => changeActiveTab("Contact")}
+                  onClick={() => changeActiveTab("Contact Us")}
                   href="#contact"
                   className={activeTab === "Contact" ? "active-tab" : "not-active"}
                   >

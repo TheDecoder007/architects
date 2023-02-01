@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 // import About from "./components/About";
 import TopNav from "./components/Nav";
 // import Contact from "./components/Contact";
-// import PageFooter from "./components/Footer";
+import PageFooter from "./components/Footer";
 import Hero from "./components/Hero";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {/* {currentPage()} */}
-      {/* <PageFooter /> */}
+      <PageFooter />
     </Container>
 
   );
