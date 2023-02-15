@@ -9,6 +9,7 @@ import TopNav from "./components/Nav";
 // import Contact from "./components/Contact";
 import PageFooter from "./components/Footer";
 import Hero from "./components/Hero";
+import Nav2 from "./components/Nav2";
 
 function App() {
   
@@ -24,7 +25,7 @@ function App() {
 
   return (
 <Container fluid className="mainContainer">
-      <TopNav activeTab={activeTab} changeActiveTab={changeActiveTab} />
+      <Nav2 activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
       <PageFooter />
