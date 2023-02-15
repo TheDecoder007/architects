@@ -13,7 +13,7 @@ import Nav2 from "./components/Nav2";
 
 function App() {
   
-  const [activeTab, setActiveTab] = useState("Services");
+  const [activeTab, setActiveTab] = useState("About");
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;

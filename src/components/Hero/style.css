@@ -1,12 +1,17 @@
 .Hero {
     padding: 0px;
-    }
+    position: relative!important;
+    
+}
 
 .Carousel {
     padding: 0px;
     /* object-fit: cover; */
+    position: relative;
+    
 }
 
 .CarouselRow {
+    position: relative;
     margin: 0px;
 }
