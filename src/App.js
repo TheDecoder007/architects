@@ -5,32 +5,30 @@ import "../src/assets/index.css";
 import Container from "react-bootstrap/Container";
 // import Projects from "./components/Projects";
 import About from "./components/About";
-import TopNav from "./components/Nav";
-// import Contact from "./components/Contact";
+// import TopNav from "./components/Nav";
+import Contact from "./components/Contact";
 import PageFooter from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav2 from "./components/Nav2";
 
 function App() {
-  
   const [activeTab, setActiveTab] = useState("About");
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;
+    if (activeTab === "Contact") return <Contact />;
     // if (activeTab === "Services") return <Services />;
-  //   if (activeTab === "Contact") return <Contact />;
   };
 
   const changeActiveTab = (tab) => setActiveTab(tab);
 
   return (
-<Container fluid className="mainContainer">
+    <Container fluid className="mainContainer">
       <Nav2 activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
       {currentPage()}
       <PageFooter />
     </Container>
-
   );
 }
 

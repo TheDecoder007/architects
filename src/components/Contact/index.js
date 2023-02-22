@@ -6,66 +6,56 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import "./style.css";
-import Aos from "aos";
+// import Aos from "aos";
 import { Link } from "react-router-dom";
 
+function Contact() {
+  return (
+        <Container fluid className="ContactCont">
+        <Row>
+          <h3 className="text-center sectionHead">
+            Our Resumes & Contact Information
+          </h3>
+        </Row>
 
+<Container>
 
-
- const Contact = () => {
-
-    return (
-<Container fluid className="mainCont">
-
-<Container fluid className="subCont">
-<Row>
-<h3 className="text-center sectionHead">
-        Our Resumes and Contact Information
-      </h3>
-</Row>
-</Container>
-
-<Row className="CardRow">
-    <Col className="colSolo">
-    <Card className="cardSolo">
-              <Card.Img
-                src={require("./../../assets/photos/Tom.jpg")}
-                className="images"
+      <Row className="CardRow">
+        <Col className="colSolo">
+          <Card className="cardSolo">
+            <Card.Img
+              src={require("./../../assets/photos/Tom.jpg")}
+              className="images"
               />
-              <Card.Body>
-                <Card.Title>Thomas F. Hibbard</Card.Title>
-                <Link to= "#tom">
-                <Button className="AllBtn">
-                  My Resume
-                </Button>
-                </Link>
-              </Card.Body>
-            </Card>
-    </Col>
+            <Card.Body>
+              <Card.Title>Thomas F. Hibbard</Card.Title>
+              <Link to="#tom">
+                <Button className="AllBtn">My Resume</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        </Row>
 
-    <Col className="colSolo">
-    <Card className="cardSolo">
-              <Card.Img
-                src={require("./../../assets/photos/Carmelo.jpg")}
-                className="images"
+              </Container>
+    {/* <Row>
+        <Col className="colSolo">
+          <Card className="cardSolo">
+            <Card.Img
+              src={require("./../../assets/photos/Carmelo.jpg")}
+              className="images"
               />
-              <Card.Body>
-                <Card.Title>Carmelo Rosa</Card.Title>
-                <Link to= "#tom">
-                <Button className="AllBtn">
-                  My Resume
-                </Button>
-                </Link>
-              </Card.Body>
-            </Card>
-    </Col>
+            <Card.Body>
+              <Card.Title>Carmelo Rosa</Card.Title>
+              <Link to="#carmelo">
+                <Button className="AllBtn">My Resume</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row> */}
+              </Container>
+  );
+};
 
-</Row>
-
-
-</Container>
-    );
- };
-
-
- export default Contact;
+export default Contact;

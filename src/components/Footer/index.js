@@ -1,8 +1,6 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
 // import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
-import Container from "react-bootstrap/Container";
 import "./style.css"
 import footerImg from "../../assets/photos/Footer.jpg";
 

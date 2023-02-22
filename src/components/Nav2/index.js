@@ -31,7 +31,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               Home
             </Nav.Link>
             <Nav.Link
-              onClick={() => changeActiveTab("Contact Us")}
+              onClick={() => changeActiveTab("Contact")}
               href="#contact"
               className={activeTab === "Contact" ? "active-tab" : "not-active"}
             >
