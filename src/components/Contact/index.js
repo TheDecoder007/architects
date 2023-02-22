@@ -9,16 +9,22 @@ import "./style.css";
 // import Aos from "aos";
 import { Link } from "react-router-dom";
 
-function Contact() {
+const Contact = () => {
+
   return (
-        <Container fluid className="ContactCont">
+    <Container fluid className="ContactCont">
+
+
+        <Container fluid >
         <Row>
           <h3 className="text-center sectionHead">
             Our Resumes & Contact Information
           </h3>
         </Row>
+        </Container>
 
-<Container>
+
+<Container fluid>
 
       <Row className="CardRow">
         <Col className="colSolo">
@@ -29,16 +35,12 @@ function Contact() {
               />
             <Card.Body>
               <Card.Title>Thomas F. Hibbard</Card.Title>
-              <Link to="#tom">
-                <Button className="AllBtn">My Resume</Button>
-              </Link>
+
+              <Card.Link href="#tom">My Resume</Card.Link>
             </Card.Body>
           </Card>
         </Col>
-        </Row>
 
-              </Container>
-    {/* <Row>
         <Col className="colSolo">
           <Card className="cardSolo">
             <Card.Img
@@ -47,13 +49,14 @@ function Contact() {
               />
             <Card.Body>
               <Card.Title>Carmelo Rosa</Card.Title>
-              <Link to="#carmelo">
-                <Button className="AllBtn">My Resume</Button>
-              </Link>
+              <Card.Link href="#carmelo">My Resume</Card.Link>
+
             </Card.Body>
           </Card>
         </Col>
-      </Row> */}
+      </Row>
+              </Container>
+
               </Container>
   );
 };
