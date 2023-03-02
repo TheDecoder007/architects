@@ -12,19 +12,19 @@ import { Link } from "react-router-dom";
 const Contact = () => {
 
   return (
-    <Container fluid className="ContactCont">
+    // <Container fluid >
 
 
-        <Container fluid >
+        <Container fluid className="ContactCont">
         <Row>
           <h3 className="text-center sectionHead">
             Our Resumes & Contact Information
           </h3>
         </Row>
-        </Container>
+        {/* </Container>
 
 
-<Container fluid>
+<Container fluid> */}
 
       <Row className="CardRow">
         <Col className="colSolo">
@@ -57,7 +57,7 @@ const Contact = () => {
       </Row>
               </Container>
 
-              </Container>
+              // </Container>
   );
 };
 

@@ -1,12 +1,13 @@
 .ContactCont {
-    justify-content: center;
+    /* justify-content: center; */
+    padding-bottom: 26px;
 }
 
 .cardSolo {
     margin-bottom: 10px;    
     margin-top: 20px;
-    height: 20rem;
-    width: 20rem;
+    /* height: 20rem;
+    width: 20rem; */
 }
 
 .colSolo {
