@@ -54,7 +54,7 @@ const Contact = () => {
 
           {/* MODAL FOR RESUME */}
           {/* <> */}
-            <Button onClick={ModalTom}>My Resume</Button>
+            <Button src={ModalTom} onClick={handleShow}>My Resume</Button>
             {/* <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>Thomas F. Hibbard Resume</Modal.Title>

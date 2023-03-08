@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 
 function ModalTom() {
     const [show, setShow] = useState(false);
-  
     const handleClose = () => setShow(false);
     // const handleShow = () => setShow(true);
-    setShow(true)
     return(
         <>
+            {/* <Button onClick={handleShow}>My Resume</Button> */}
+
             <Modal show={show} onHide={handleClose}>
 
 <Modal.Header closeButton>
