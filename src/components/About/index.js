@@ -16,6 +16,7 @@ const About = () => {
         <Col className="AboutMe">
           <p>
             <h3>About Us:</h3>
+            <br/>
             Established in 1996 by Thomas F. Hibbard and Carmelo Rosa, Hibbard &
             Rosa Architects, L.L.C. is the successor firm to Seb J. Passanesi,
             Architects. Located in Middletown, Connecticut for over 60 years, we
@@ -27,11 +28,13 @@ const About = () => {
             providing services for new construction, renovations, adaptive use
             designs, and historic preservation.
             <br />
+            <br/>
             We firmly believe our success is the result of the close
             relationships developed with our clients from the conceptual stage
             of the design process through construction documents and building
             construction.
             <br />
+            <br/>
             Our reputation for quality and service has resulted in repeat
             business and positive referrals. We invite you to browse a sampling
             of our work. We thank you for allowing us to introduce you to

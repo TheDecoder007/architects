@@ -24,6 +24,9 @@
     justify-content: center;
     align-items: center;
     margin: 3px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 .images {
@@ -34,7 +37,7 @@
     border-radius: 10px;
 }
 .sectionHead {
-    font-size: xxx-large;
+    font-size: xx-large;
     padding-bottom: 15px;
     text-shadow: 0 0 2px white;
     border-bottom: 2px solid whitesmoke;
