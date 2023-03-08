@@ -9,12 +9,11 @@ function ModalTom() {
     // const handleShow = () => setShow(true);
     return(
         <>
-            {/* <Button onClick={handleShow}>My Resume</Button> */}
 
             <Modal show={show} onHide={handleClose}>
 
 <Modal.Header closeButton>
-<Modal.Title>Thomas F. Hibbard Resume</Modal.Title>
+<Modal.Title>Thomas F. Hibbard's Resume</Modal.Title>
 </Modal.Header>
 <Modal.Body>
 <p>

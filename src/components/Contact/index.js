@@ -10,6 +10,7 @@ import "./style.css";
 // import Aos from "aos";
 import { Link } from "react-router-dom";
 import ModalTom from "../ModalTom";
+import ModalCarm from "../ModalCarm";
 
 const Contact = () => {
   const [show, setShow] = useState(false);
@@ -120,11 +121,12 @@ const Contact = () => {
           </Card>
 
           {/* MODAL FOR RESUME           */}
-          <>
-            <Button onClick={handleShow}>My Resume</Button>
-            <Modal show={show} onHide={handleClose}>
+          {/* <> */}
+          <Button src={ModalCarm} onClick={handleShow}>My Resume</Button>
+
+            {/* <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>Carmelo Rosa Resume</Modal.Title>
+                <Modal.Title>Carmelo Rosa's Resume</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <p>
@@ -155,12 +157,12 @@ const Contact = () => {
                 </p>
               </Modal.Body>
               <Modal.Footer>
-                {/* <Button variant="secondary" onClick={handleClose}>
+                 <Button variant="secondary" onClick={handleClose}>
                   Close
-                </Button> */}
+                </Button> 
               </Modal.Footer>
-            </Modal>
-          </>
+            </Modal> */}
+          {/* </> */}
 
         </Col>
       </Row>
