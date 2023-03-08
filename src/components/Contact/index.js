@@ -6,23 +6,21 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import "./style.css";
-import carmRes from "../../Pages/carmResume"
+import carmRes from "../../Pages/carmResume";
 // import Aos from "aos";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-
   return (
     // <Container fluid >
 
-
-        <Container fluid className="ContactCont">
-        <Row>
-          <h3 className="text-center sectionHead">
-            Our Resumes & Contact Information
-          </h3>
-        </Row>
-        {/* </Container>
+    <Container fluid className="ContactCont">
+      <Row>
+        <h3 className="text-center sectionHead">
+          Our Resumes & Contact Information
+        </h3>
+      </Row>
+      {/* </Container>
 
 
 <Container fluid> */}
@@ -33,21 +31,26 @@ const Contact = () => {
             <Card.Img
               src={require("./../../assets/photos/Tom.jpg")}
               className="images"
-              />
+            />
             <Card.Body>
               <Card.Title>Thomas F. Hibbard</Card.Title>
-  <Card.Text>
-    <h6 type="tel">Tel: 860-346-1809 ext. 701</h6>
-    
-    <Card.Link type="email" className="contactEmail" href="mailto:tom@hra.bz">Tom@hra.bz</Card.Link>
+              <Card.Text>
+                <h6 type="tel">Tel: 860-346-1809 ext. 701</h6>
 
-  </Card.Text>
+                <Card.Link
+                  type="email"
+                  className="contactEmail"
+                  href="mailto:tom@hra.bz"
+                >
+                  Tom@hra.bz
+                </Card.Link>
+              </Card.Text>
             </Card.Body>
           </Card>
-              <Card.Link href="#tomResume">My Resume</Card.Link>
+          <Card.Link href="#tomResume">My Resume</Card.Link>
         </Col>
-{/* </Row>
-<Row> */}
+
+
         <Col className="colSolo">
           <Card className="cardSolo">
             <Card.Img
@@ -57,19 +60,40 @@ const Contact = () => {
             <Card.Body>
               <Card.Title>Carmelo Rosa</Card.Title>
               <Card.Text>
-    <h6 type="tel">Tel: 860-346-1809 ext. 702</h6>
-    
-    <Card.Link type="email" className="contactEmail" href="mailto:carm@hra.bz">Carm@hra.bz</Card.Link>
+                <h6 type="tel">Tel: 860-346-1809 ext. 702</h6>
 
-  </Card.Text>
+                <Card.Link
+                  type="email"
+                  className="contactEmail"
+                  href="mailto:carm@hra.bz"
+                  >
+                  Carm@hra.bz
+                </Card.Link>
+              </Card.Text>
             </Card.Body>
           </Card>
-              <Card.Link href="#carmResume">My Resume</Card.Link>
+          <Card.Link href="#carmResume">My Resume</Card.Link>
         </Col>
       </Row>
-              </Container>
+      <Row className="CardRow">
 
-              // </Container>
+                  <Col className="colSolo">
+                  <h3>Company Info</h3>
+                  <ul>
+                    <li>
+                      Hibbard & Rosa Architects, L.L.C.
+                      100 Roverview Center, suite 272
+                      292 Main Street
+                      Middletown, CT 06457
+                      Tel: 860-346-1809
+                      Fax: 860-346-1809
+                    </li>
+                  </ul>
+                  </Col>
+      </Row>
+    </Container>
+
+    // </Container>
   );
 };
 
