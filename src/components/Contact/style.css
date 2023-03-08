@@ -11,7 +11,7 @@
 }
 
 .colSolo {
-    display: flex;
+    display: inline-grid;
     justify-content: center;
     margin: 5px;
     align-items: center; 
