@@ -9,6 +9,7 @@ import Card from "react-bootstrap/Card";
 import "./style.css";
 // import Aos from "aos";
 import { Link } from "react-router-dom";
+import ModalTom from "../ModalTom";
 
 const Contact = () => {
   const [show, setShow] = useState(false);
@@ -52,9 +53,9 @@ const Contact = () => {
           </Card>
 
           {/* MODAL FOR RESUME */}
-          <>
-            <Button onClick={handleShow}>Tom's Resume</Button>
-            <Modal show={show} onHide={handleClose}>
+          {/* <> */}
+            <Button onClick={ModalTom}>My Resume</Button>
+            {/* <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>Thomas F. Hibbard Resume</Modal.Title>
               </Modal.Header>
@@ -92,8 +93,8 @@ const Contact = () => {
                   Close
                 </Button>
               </Modal.Footer>
-            </Modal>
-          </>
+            </Modal> */}
+          {/* </> */}
         </Col>
 
         <Col className="colSolo">
@@ -120,7 +121,7 @@ const Contact = () => {
 
           {/* MODAL FOR RESUME           */}
           <>
-            <Button onClick={handleShow}>Carmelo's Resume</Button>
+            <Button onClick={handleShow}>My Resume</Button>
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>Carmelo Rosa Resume</Modal.Title>
@@ -154,13 +155,13 @@ const Contact = () => {
                 </p>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                {/* <Button variant="secondary" onClick={handleClose}>
                   Close
-                </Button>
+                </Button> */}
               </Modal.Footer>
             </Modal>
           </>
-          
+
         </Col>
       </Row>
       <Row className="CardRow">
