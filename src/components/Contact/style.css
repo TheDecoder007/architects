@@ -1,13 +1,13 @@
 .ContactCont {
     /* justify-content: center; */
     padding-bottom: 26px;
-    background-color:rgb(250, 172, 70);
+    background-color:rgb(252, 205, 143);
 }
 
 .cardSolo {
     margin-bottom: 10px;    
     margin-top: 20px;
-    box-shadow: 0 0 7px white;
+    box-shadow: 0 0 7px black;
 
     /* height: 20rem;
     width: 20rem; */
@@ -49,13 +49,25 @@
 }
 
 .resButton {
-    background-color: black;
-    box-shadow: 0 0 5px white;
+    background-color: white;
+    box-shadow: 0 0 5px black;
     font-weight: bold;
+    color: black;
+    border: 2px solid black;
 }
 
 .resButton:hover {
-    background-color:rgb(250, 172, 70);
+    background-color:rgb(252, 205, 143);
     color: black;
     box-shadow: 0 0 10px white;
+}
+
+.contactEmail {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contactEmail:hover {
+    color:black ;
+    text-shadow: 0 0 3px, rgb(252, 205, 143);
 }

@@ -2,7 +2,7 @@ import React from "react";
 // import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import "./style.css"
-import footerImg from "../../assets/photos/Footer.jpg";
+import footerImg from "../../assets/photos/Footer2.jpg";
 
 function PageFooter() {
   return (
