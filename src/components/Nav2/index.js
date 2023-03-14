@@ -5,6 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Row from "react-bootstrap/Row";
 
+
+
 import "./style.css";
 
 function Nav2({ activeTab, changeActiveTab }) {
@@ -25,14 +27,14 @@ function Nav2({ activeTab, changeActiveTab }) {
           <Nav className="me-auto">
             <Nav.Link
               onClick={() => changeActiveTab("About")}
-              href="#about"
+              href="/about"
               className={activeTab === "About" ? "active-tab" : "not-active"}
             >
               Home
             </Nav.Link>
             <Nav.Link
               onClick={() => changeActiveTab("Contact")}
-              href="#contact"
+              href="/contact"
               className={activeTab === "Contact" ? "active-tab" : "not-active"}
             >
               Contact Us
@@ -65,6 +67,7 @@ function Nav2({ activeTab, changeActiveTab }) {
                   activeTab === "Commercial" ? "active-tab" : "not-active"
                 }
               >
+                Commercial
               </NavDropdown.Item>
 
               <NavDropdown.Item
@@ -78,7 +81,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Historical Preservation")}
-                href="/preservation"
+                href="/historic"
                 className={
                   activeTab === "Historical Preservation"
                     ? "active-tab"

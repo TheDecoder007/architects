@@ -1,0 +1,49 @@
+.projectCont {
+    background-color: rgb(252, 205, 143);;
+}
+
+.sectionHead {
+    font-size: xx-large;
+    padding-bottom: 15px;
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+.cardSolo {
+    margin-bottom: 10px;    
+    margin-top: 20px;
+    box-shadow: 0 0 7px black;
+
+    /* height: 20rem;
+    width: 20rem; */
+}
+
+.colSolo {
+    display: inline-grid;
+    justify-content: center;
+    margin: 5px;
+    align-items: center; 
+}
+.CardRow {
+    text-align: -webkit-center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.images {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 10px;
+}

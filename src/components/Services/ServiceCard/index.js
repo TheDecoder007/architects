@@ -5,6 +5,7 @@ import "./style.css";
 
 function ServiceCard({
     img, 
+    location,
     line,
     alt,
 }) {
@@ -13,11 +14,14 @@ function ServiceCard({
         <Col className="CardCol">
         <Card
           className="text-center wholeCard"
-          style={{ width: "27rem", height: "34rem" }}
+          style={{ width: "20rem", height: "26rem" }}
         >
-                <Card.Img src={img} alt={alt}></Card.Img>
+    
+                <Card.Img className="cardImg" src={img} alt={alt}></Card.Img>
   
           <Card.Body>
+          <Card.Subtitle>{location}</Card.Subtitle>
+
             <Card.Text>{line}</Card.Text>
           </Card.Body>
         </Card>

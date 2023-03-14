@@ -11,9 +11,9 @@
 }
 
 .wholeCard {
-    box-shadow: 0 0 15px whitesmoke;
+    box-shadow: 0 0 15px black;
     background-color: var(--primary);
-    color: whitesmoke;
+    color: black;
     border-radius: 10px;
     border: 2px solid var(--secondary);
 }
@@ -26,6 +26,9 @@
 
 
 .card-img, .card-img-top {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
 }

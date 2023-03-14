@@ -22,12 +22,16 @@ function App() {
   const [activeTab, setActiveTab] = useState("About");
 
   const currentPage = () => {
-    if (activeTab === "About") return <About />;
-    if (activeTab === "Contact") return <Contact />;
-    // if (activeTab === "Services") return <Services />;
-  };
-
-  const changeActiveTab = (tab) => setActiveTab(tab);
+  //   if (activeTab === "About") return <About />;
+      if (activeTab === "Contact") return <Contact />;
+      // if (activeTab === "commercial") return <Commercial />;
+      // if (activeTab === "Historic") return <Historic />;
+      // if (activeTab === "Institution") return <Institution />;
+      // if (activeTab === "Municipal") return <Municipal />;
+      // if (activeTab === "Residential") return <Residential />;
+    };
+    
+    const changeActiveTab = (tab) => setActiveTab(tab);
 
   return (
     <Container fluid className="mainContainer">
@@ -35,7 +39,9 @@ function App() {
       <Hero></Hero>
       <Router>
         <Routes>
-          {/* maybe need to be uppercase */}
+        <Route path="/" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
           <Route path="/commercial" element={<Commercial />} />
           <Route path="/historic" element={<Historic />} />
           <Route path="/institution" element={<Institution />} />
