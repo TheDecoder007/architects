@@ -1,19 +1,28 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 
-// function ServiceCard({
-//     img, 
-//     title,
-//     description,
-//     alt,
-// }) {
+function ServiceCard({
+    img, 
+    line,
+    alt,
+}) {
 
-//     return (
+    return (
+        <Col className="CardCol">
+        <Card
+          className="text-center wholeCard"
+          style={{ width: "27rem", height: "34rem" }}
+        >
+                <Card.Img src={img} alt={alt}></Card.Img>
+  
+          <Card.Body>
+            <Card.Text>{line}</Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
 
+    )
+}
 
-//     )
-// }
-
-// export default ServiceCard;
+export default ServiceCard;

@@ -8,7 +8,6 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import "./style.css";
 // import Aos from "aos";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [show, setShow] = useState(false);
