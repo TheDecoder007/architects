@@ -6,7 +6,7 @@
     padding: 0px;
     border: none;
     font-weight: bold;
-    height: 125px;
+    height: auto;
     width: 100%;
     border-top: 3px solid black;
 }
