@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Row from "react-bootstrap/Row";
-import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -38,10 +37,12 @@ function Nav2({ activeTab, changeActiveTab }) {
             >
               Contact Us
             </Nav.Link>
+
             <NavDropdown title="Our Services" id="basic-nav-dropdown">
+              
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Residential")}
-                href="#residential"
+                href="/residential"
                 className={
                   activeTab === "Residential" ? "active-tab" : "not-active"
                 }
@@ -50,7 +51,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Municipal")}
-                href="#municipal"
+                href="/municipal"
                 className={
                   activeTab === "Municipal" ? "active-tab" : "not-active"
                 }
@@ -59,17 +60,16 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Commercial")}
-                
+                href="/commercial"
                 className={
                   activeTab === "Commercial" ? "active-tab" : "not-active"
                 }
               >
-                <Link to= "#commercial">Commercial</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Institution")}
-                href="#institution"
+                href="/institution"
                 className={
                   activeTab === "Institution" ? "active-tab" : "not-active"
                 }
@@ -78,7 +78,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Historical Preservation")}
-                href="#preservation"
+                href="/preservation"
                 className={
                   activeTab === "Historical Preservation"
                     ? "active-tab"

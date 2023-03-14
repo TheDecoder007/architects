@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "../components/Services/ServiceCard";
 import {commercial} from "../components/Services/Data/commercialData"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

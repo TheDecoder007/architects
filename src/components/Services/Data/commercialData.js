@@ -1,6 +1,6 @@
 export const commercial = [
     {
-        img: require("../../assets/videos/weTravelVid.mp4"),
+        img: require("../../../assets/photos/commercial/BedBathRutlandVT.jpg"),
         line: "A complete remake of weTravel from scratch, using the full MERN stack, and improving the UI.",
         alt: "commercial site",
     },

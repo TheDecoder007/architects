@@ -10,6 +10,13 @@ import Contact from "./components/Contact";
 import PageFooter from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav2 from "./components/Nav2";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Commercial from "./Pages/commercial";
+import Historic from "./Pages/historic";
+import Institution from "./Pages/institution";
+import Municipal from "./Pages/municipal";
+import Residential from "./Pages/residential";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -26,6 +33,17 @@ function App() {
     <Container fluid className="mainContainer">
       <Nav2 activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
+      <Router>
+        <Routes>
+          {/* maybe need to be uppercase */}
+          <Route path="/commercial" element={<Commercial />} />
+          <Route path="/historic" element={<Historic />} />
+          <Route path="/institution" element={<Institution />} />
+          <Route path="/municipal" element={<Municipal />} />
+          <Route path="/residential" element={<Residential />} />
+        </Routes>
+      </Router>
+
       {currentPage()}
       <PageFooter />
     </Container>
