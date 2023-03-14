@@ -29,12 +29,10 @@
 }
 .CardRow {
     text-align: -webkit-center;
-    margin-left: 10px;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin: 0px;
     color: black;
     padding-bottom: 10px;
     padding-top: 10px;

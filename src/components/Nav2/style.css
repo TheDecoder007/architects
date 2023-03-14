@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.NavBar {
-    justify-content: center;
-    text-align: center;
-}
 
 .navbar-collapse {
     margin-bottom: -160px;
@@ -28,4 +24,23 @@
 /* .navContainer {
     position: relative!important;
 } */
+
+
+.navbar {
+   background-color:  rgb(252, 205, 143);
+   background-color:  rgb(252, 205, 143);
+   color: black;
+}
+
+a.navbar-brand {
+   color: black;
+}
+
+.navCollapse, navbar-collapse, collapse {
+    color: black;
+}
+
+#basic-navbar-nav {
+    color: black;
+}
 

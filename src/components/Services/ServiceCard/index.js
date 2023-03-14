@@ -14,7 +14,7 @@ function ServiceCard({
         <Col className="CardCol">
         <Card
           className="text-center wholeCard"
-          style={{ width: "20rem", height: "26rem" }}
+          style={{ width: "20rem", height: "22rem" }}
         >
     
                 <Card.Img className="cardImg" src={img} alt={alt}></Card.Img>
