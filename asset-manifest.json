@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/architects/static/css/main.14a0325a.css",
+    "main.js": "/architects/static/js/main.3f05d353.js",
+    "static/js/787.9ce90003.chunk.js": "/architects/static/js/787.9ce90003.chunk.js",
+    "static/media/StSebsMiddletown.jpg": "/architects/static/media/StSebsMiddletown.c4d7014e5b112e3a584d.jpg",
+    "static/media/Footer2.jpg": "/architects/static/media/Footer2.010565859ead09f893f4.jpg",
+    "static/media/Tom.jpg": "/architects/static/media/Tom.a27f52cae38bade2cd5f.jpg",
+    "static/media/Carmelo.jpg": "/architects/static/media/Carmelo.428ada2f581eee8e5ea5.jpg",
+    "static/media/MixedUseGlastonbury.jpg": "/architects/static/media/MixedUseGlastonbury.81b52143fd0f628fe975.jpg",
+    "static/media/NewingtonVetsHospital.jpg": "/architects/static/media/NewingtonVetsHospital.e033cf840afc9fb34300.jpg",
+    "static/media/CTstateFacilityHartford.jpg": "/architects/static/media/CTstateFacilityHartford.9487ff763fc11f062600.jpg",
+    "static/media/BedBathRutlandVT.jpg": "/architects/static/media/BedBathRutlandVT.0d9ca4961b7ad9cc2bcb.jpg",
+    "static/media/residence2.jpg": "/architects/static/media/residence2.f1ddd0261973f6289803.jpg",
+    "static/media/residence4.jpg": "/architects/static/media/residence4.279b06289a802a7d6c5b.jpg",
+    "index.html": "/architects/index.html",
+    "main.14a0325a.css.map": "/architects/static/css/main.14a0325a.css.map",
+    "main.3f05d353.js.map": "/architects/static/js/main.3f05d353.js.map",
+    "787.9ce90003.chunk.js.map": "/architects/static/js/787.9ce90003.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a0325a.css",
+    "static/js/main.3f05d353.js"
+  ]
+}
