@@ -11,11 +11,11 @@
 }
 
 .wholeCard {
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 13px black;
     background-color: var(--primary);
     color: black;
     border-radius: 10px;
-    border: 2px solid var(--secondary);
+    border: 1px solid white;
 }
 
 .card-body {

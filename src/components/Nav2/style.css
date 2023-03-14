@@ -34,13 +34,49 @@
 
 a.navbar-brand {
    color: black;
+   font-weight: bold;
+   font-size:x-large;
 }
 
 .navCollapse, navbar-collapse, collapse {
     color: black;
 }
 
-#basic-navbar-nav {
+.nav-link {
+    color: black;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    color: black;
+    background-color: rgb(252, 205, 143);
+    border: 2px solid white;
+    box-shadow: 0 0 7px black;
+}
+
+.navbar-toggler:hover {
+    background-color:  rgb(252, 205, 143);
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+    
+}
+
+.navbar-toggler-icon {
     color: black;
 }
 
+.dropdown-menu.show {
+    background-color: rgb(252, 205, 143);
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.not-active.dropdown-item:hover {
+    background-color: white;
+}

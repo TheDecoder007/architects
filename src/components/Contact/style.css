@@ -7,7 +7,8 @@
 .cardSolo {
     margin-bottom: 10px;    
     margin-top: 20px;
-    box-shadow: 0 0 7px black;
+    box-shadow: 0 0 10px black;
+    border: 1px solid white;
 
     /* height: 20rem;
     width: 20rem; */
@@ -49,16 +50,17 @@
 }
 
 .resButton {
-    background-color: white;
-    box-shadow: 0 0 5px black;
+    background-color: rgb(252, 205, 143);;
+    box-shadow: 0 0 7px black;
     font-weight: bold;
     color: black;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .resButton:hover {
     background-color:rgb(252, 205, 143);
     color: black;
+    border-color: white;
     box-shadow: 0 0 10px white;
 }
 
@@ -70,4 +72,24 @@
 .contactEmail:hover {
     color:black ;
     text-shadow: 0 0 3px, rgb(252, 205, 143);
+}
+
+.modal-content {
+    background-color:  rgb(252, 205, 143);
+    color: black;
+}
+
+.closeBtn {
+    background-color: rgb(252, 205, 143);;
+    box-shadow: 0 0 7px black;
+    font-weight: bold;
+    color: black;
+    border: 2px solid white;
+}
+
+.closeBtn:hover {
+    background-color:rgb(252, 205, 143);
+    color: black;
+    border-color: white;
+    box-shadow: 0 0 10px white;
 }

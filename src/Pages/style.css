@@ -45,3 +45,9 @@
     border: 5px solid white;
     border-radius: 10px;
 }
+
+.subText {
+    color: black;
+    padding-bottom: 20px;
+    line-height: normal;
+}

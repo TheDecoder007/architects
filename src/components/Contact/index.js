@@ -100,7 +100,7 @@ const Contact = () => {
                 </p>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button className="closeBtn" onClick={handleClose}>
                   Close
                 </Button>
               </Modal.Footer>
@@ -171,7 +171,7 @@ const Contact = () => {
                 </p>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose2}>
+                <Button className="closeBtn" onClick={handleClose2}>
                   Close
                 </Button>
               </Modal.Footer>

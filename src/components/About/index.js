@@ -9,12 +9,12 @@ const About = () => {
   return (
     <Container fluid className="aboutCont" id="about">
       <Row className="aboutMe">
-        <h3 className="text-center sectionHead">Hibbert & Rosa Architects</h3>
+        <h3 className="text-center sectionHead">Hibbert & Rosa Architects, L.L.C.</h3>
       </Row>
       <Row className="text-center">
 
         <Col className="AboutMe">
-          <p>
+          <h5 className="subText">
             <h3>About Us:</h3>
             <br/>
             Established in 1996 by Thomas F. Hibbard and Carmelo Rosa, Hibbard &
@@ -41,7 +41,7 @@ const About = () => {
             Hibbard & Rosa Architects, L.L.C. and we look forward to hearing
             from you in the future.
             <br />
-          </p>
+          </h5>
         </Col>
       </Row>
     </Container>

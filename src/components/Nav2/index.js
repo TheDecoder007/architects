@@ -18,7 +18,7 @@ function Nav2({ activeTab, changeActiveTab }) {
     <Navbar expand="lg" sticky="top">
       <Container className="navCont">
         <Row className="navRow">
-          <Navbar.Brand href="#about" onClick={() => changeActiveTab("About")}>
+          <Navbar.Brand href="/about" onClick={() => changeActiveTab("About")}>
             Hibbard & Rosa Architects
           </Navbar.Brand>
         </Row>
