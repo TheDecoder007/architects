@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Row from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
+
 import "./style.css";
 
 function Nav2({ activeTab, changeActiveTab }) {
@@ -57,13 +59,14 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Commercial")}
-                href="#commercial"
+                
                 className={
                   activeTab === "Commercial" ? "active-tab" : "not-active"
                 }
               >
-                Commercial
+                <Link to= "#commercial">Commercial</Link>
               </NavDropdown.Item>
+
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Institution")}
                 href="#institution"
