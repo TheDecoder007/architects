@@ -19,16 +19,16 @@ import Municipal from "./Pages/municipal";
 import Residential from "./Pages/residential";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("About");
+  const [activeTab, setActiveTab] = useState("H&R Architects");
 
   const currentPage = () => {
-  //   if (activeTab === "About") return <About />;
+    if (activeTab === "About") return <About />;
       if (activeTab === "Contact") return <Contact />;
-      // if (activeTab === "commercial") return <Commercial />;
-      // if (activeTab === "Historic") return <Historic />;
-      // if (activeTab === "Institution") return <Institution />;
-      // if (activeTab === "Municipal") return <Municipal />;
-      // if (activeTab === "Residential") return <Residential />;
+      if (activeTab === "Commercial") return <Commercial />;
+      if (activeTab === "Historic") return <Historic />;
+      if (activeTab === "Institution") return <Institution />;
+      if (activeTab === "Municipal") return <Municipal />;
+      if (activeTab === "Residential") return <Residential />;
     };
     
     const changeActiveTab = (tab) => setActiveTab(tab);
@@ -37,7 +37,7 @@ function App() {
     <Container fluid className="mainContainer">
       <Nav2 activeTab={activeTab} changeActiveTab={changeActiveTab} />
       <Hero></Hero>
-      <Router>
+      {/* <Router>
         <Routes>
         <Route path="/architects" element={<About />} />
         <Route path="/" element={<About />} />
@@ -49,7 +49,7 @@ function App() {
           <Route path="/municipal" element={<Municipal />} />
           <Route path="/residential" element={<Residential />} />
         </Routes>
-      </Router>
+      </Router> */}
 
       {currentPage()}
       <PageFooter />
