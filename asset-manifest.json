@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/architects/static/css/main.14a0325a.css",
-    "main.js": "/architects/static/js/main.29b1122b.js",
+    "main.js": "/architects/static/js/main.129d2e6e.js",
     "static/js/787.9ce90003.chunk.js": "/architects/static/js/787.9ce90003.chunk.js",
     "static/media/StSebsMiddletown.jpg": "/architects/static/media/StSebsMiddletown.c4d7014e5b112e3a584d.jpg",
     "static/media/Footer2.jpg": "/architects/static/media/Footer2.010565859ead09f893f4.jpg",
@@ -15,11 +15,11 @@
     "static/media/residence4.jpg": "/architects/static/media/residence4.279b06289a802a7d6c5b.jpg",
     "index.html": "/architects/index.html",
     "main.14a0325a.css.map": "/architects/static/css/main.14a0325a.css.map",
-    "main.29b1122b.js.map": "/architects/static/js/main.29b1122b.js.map",
+    "main.129d2e6e.js.map": "/architects/static/js/main.129d2e6e.js.map",
     "787.9ce90003.chunk.js.map": "/architects/static/js/787.9ce90003.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14a0325a.css",
-    "static/js/main.29b1122b.js"
+    "static/js/main.129d2e6e.js"
   ]
 }
