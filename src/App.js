@@ -39,6 +39,7 @@ function App() {
       <Hero></Hero>
       <Router>
         <Routes>
+        <Route path="/architects" element={<About />} />
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
