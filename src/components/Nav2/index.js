@@ -27,14 +27,14 @@ function Nav2({ activeTab, changeActiveTab }) {
           <Nav className="me-auto">
             <Nav.Link
               onClick={() => changeActiveTab("About")}
-              href="/about"
+              href="#about"
               className={activeTab === "About" ? "active-tab" : "not-active"}
             >
               Home
             </Nav.Link>
             <Nav.Link
               onClick={() => changeActiveTab("Contact")}
-              href="/contact"
+              href="#contact"
               className={activeTab === "Contact" ? "active-tab" : "not-active"}
             >
               Contact Us
@@ -44,7 +44,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Residential")}
-                href="/residential"
+                href="#residential"
                 className={
                   activeTab === "Residential" ? "active-tab" : "not-active"
                 }
@@ -53,7 +53,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Municipal")}
-                href="/municipal"
+                href="#municipal"
                 className={
                   activeTab === "Municipal" ? "active-tab" : "not-active"
                 }
@@ -62,7 +62,7 @@ function Nav2({ activeTab, changeActiveTab }) {
               </NavDropdown.Item>
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Commercial")}
-                href="/commercial"
+                href="#commercial"
                 className={
                   activeTab === "Commercial" ? "active-tab" : "not-active"
                 }
@@ -72,7 +72,7 @@ function Nav2({ activeTab, changeActiveTab }) {
 
               <NavDropdown.Item
                 onClick={() => changeActiveTab("Institution")}
-                href="/institution"
+                href="#institution"
                 className={
                   activeTab === "Institution" ? "active-tab" : "not-active"
                 }
@@ -80,8 +80,8 @@ function Nav2({ activeTab, changeActiveTab }) {
                 Institution
               </NavDropdown.Item>
               <NavDropdown.Item
-                onClick={() => changeActiveTab("Historical Preservation")}
-                href="/historic"
+                onClick={() => changeActiveTab("Historic")}
+                href="#historic"
                 className={
                   activeTab === "Historical Preservation"
                     ? "active-tab"

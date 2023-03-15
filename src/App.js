@@ -10,14 +10,14 @@ import Nav2 from "./components/Nav2";
 
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Commercial from "./components/commercial";
-import Historic from "./components/historic";
-import Institution from "./components/institution";
-import Municipal from "./components/municipal";
-import Residential from "./components/residential";
+import Commercial from "./components/Commercial";
+import Historic from "./components/Historic";
+import Institution from "./components/Institution";
+import Municipal from "./components/Municipal";
+import Residential from "./components/Residential";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("H&R Architects");
+  const [activeTab, setActiveTab] = useState("About");
 
   const currentPage = () => {
     if (activeTab === "About") return <About />;

@@ -1,6 +1,6 @@
 import React from "react";
-import ServiceCard from "../components/Services/ServiceCard";
-import { residential } from "../components/Services/Data/residentialData";
+import ServiceCard from "../Services/ServiceCard";
+import { residential } from "../Services/Data/residentialData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 

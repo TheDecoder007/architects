@@ -1,6 +1,6 @@
 import React from "react";
-import ServiceCard from "../components/Services/ServiceCard";
-import { institution } from "../components/Services/Data/institutionData";
+import ServiceCard from "../Services/ServiceCard";
+import { institution } from "../Services/Data/institutionData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 

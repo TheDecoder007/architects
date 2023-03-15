@@ -1,6 +1,6 @@
 import React from "react";
-import ServiceCard from "../components/Services/ServiceCard";
-import { municipal } from "../components/Services/Data/municipalData";
+import ServiceCard from "../Services/ServiceCard";
+import { municipal } from "../Services/Data/municipalData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 

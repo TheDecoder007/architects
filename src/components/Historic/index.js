@@ -1,6 +1,6 @@
 import React from "react";
-import ServiceCard from "../components/Services/ServiceCard";
-import { historic } from "../components/Services/Data/historicData";
+import ServiceCard from "../Services/ServiceCard";
+import { historic } from "../Services/Data/historicData";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
