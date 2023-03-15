@@ -3,20 +3,18 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/assets/index.css";
 import Container from "react-bootstrap/Container";
-// import Projects from "./components/Projects";
-import About from "./components/About";
-// import TopNav from "./components/Nav";
-import Contact from "./components/Contact";
 import PageFooter from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav2 from "./components/Nav2";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Commercial from "./Pages/commercial";
-import Historic from "./Pages/historic";
-import Institution from "./Pages/institution";
-import Municipal from "./Pages/municipal";
-import Residential from "./Pages/residential";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Commercial from "./components/commercial";
+import Historic from "./components/historic";
+import Institution from "./components/institution";
+import Municipal from "./components/municipal";
+import Residential from "./components/residential";
 
 function App() {
   const [activeTab, setActiveTab] = useState("H&R Architects");
